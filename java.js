@@ -1,9 +1,8 @@
-let name=prompt("welcome to our website. whats your name? ");
-alert ('Hello '+ name)
-let answer=prompt("Do you want to contact us?")
-alert ("this is our phone number:07777777777")
- console.log("you are here to develop your personality")
- 
-   
+console.log("You are here to develop your personality")
 
-
+var YourAge = prompt('Whats your age?')
+if (YourAge>18)  {alert('welcome')  }
+else if(YourAge<18) {alert('go home')  }
+else  {alert('welcome ')  }
+let name =prompt('Welcome to our website.Whats your name');
+alert('Helo '+ name)
